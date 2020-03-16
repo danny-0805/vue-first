@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-bar {
+  background: linear-gradient(90deg, #41b782, #86d169);
+  height: 60px;
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-image,
+.product-info {
+  width: 50%;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .product {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-image,
+  .product-info {
+    width: 100%;
+    text-align: center;
+  }
+}
