@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+.disabledButton {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
 .nav-bar {
   background: linear-gradient(90deg, #41b782, #86d169);
   height: 60px;
@@ -41,6 +46,12 @@
 .product-info button {
   border-radius: 10px;
   padding: 4px 6px;
+}
+
+.product-info .color-box {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
 }
 
 .product-info .cart {
